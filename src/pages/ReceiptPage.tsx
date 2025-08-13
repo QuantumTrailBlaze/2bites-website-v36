@@ -109,14 +109,36 @@ const ReceiptPage = () => {
 
         {receiptData && (
           <div className="w-full"> {/* Main wrapper for all receipt sections */}
-            {/* Hero Section */}
+            {/* Hero Section - Now the main two-column layout */}
             <section className="w-full bg-gradient-to-br from-primary/10 to-background py-16 md:py-24">
-              <div className="container mx-auto px-4 max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                {/* Left Column: Title */}
+              <div className="container mx-auto px-4 max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 items-start"> {/* Changed items-center to items-start */}
+                {/* Left Column: Title, Perfecto para, Tags */}
                 <div className="text-center md:text-left">
-                  <h1 className="text-5xl md:text-6xl font-extrabold text-primary mb-6 leading-tight animate-fade-in-up">
+                  {/* Title */}
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary leading-tight mb-4 animate-fade-in-up">
                     {receiptData.title}
                   </h1>
+
+                  {/* Perfecto para Section (no card) */}
+                  {receiptData.perfect_for && (
+                    <div className="text-lg text-foreground/80 leading-relaxed mb-4 animate-fade-in-up-delay">
+                      <p>{receiptData.perfect_for}</p>
+                    </div>
+                  )}
+
+                  {/* Tags Section (no card) */}
+                  {receiptData.tags && receiptData.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-3 animate-fade-in-up-delay-2">
+                      {receiptData.tags.map((tag, index) => (
+                        <span key={index} className={cn(
+                          `px-3 py-1 text-xs font-medium shadow-sm rounded-full`,
+                          tag.iconColorClass || 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300'
+                        )}>
+                          {tag.text}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
                 {/* Right Column: Image */}
@@ -145,19 +167,8 @@ const ReceiptPage = () => {
               </div>
             </section>
 
+            {/* Remaining sections (Ingredients, Benefits, etc.) */}
             <div className="container mx-auto px-4 py-12 md:py-16 max-w-3xl space-y-12 md:space-y-16">
-              {/* Perfecto para Section */}
-              {receiptData.perfect_for && (
-                <Card className="animate-fade-in-up">
-                  <CardHeader>
-                    <CardTitle className="text-primary">Perfecto para:</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-lg leading-relaxed">{receiptData.perfect_for}</p>
-                  </CardContent>
-                </Card>
-              )}
-
               {/* Ingredients Section */}
               {receiptData.ingredients && receiptData.ingredients.length > 0 && (
                 <Card className="animate-fade-in-up">
@@ -259,27 +270,6 @@ const ReceiptPage = () => {
                           </tr>
                         </tbody>
                       </table>
-                    </div>
-                  </CardContent>
-                </Card>
-              )}
-
-              {/* Tags Section */}
-              {receiptData.tags && receiptData.tags.length > 0 && (
-                <Card className="animate-fade-in-up">
-                  <CardHeader>
-                    <CardTitle className="text-secondary">Tags:</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="flex flex-wrap gap-3">
-                      {receiptData.tags.map((tag, index) => (
-                        <span key={index} className={cn(
-                          `px-4 py-2 rounded-full text-sm font-medium shadow-sm`,
-                          tag.iconColorClass || 'bg-accent text-accent-foreground'
-                        )}>
-                          {tag.text}
-                        </span>
-                      ))}
                     </div>
                   </CardContent>
                 </Card>
