@@ -602,5 +602,8 @@
       "title": "Política de Privacidad",
       "closeButton": "Cerrar"
     }
+  },
+  "receiptPage": {
+    "nutritionalInfoTitle": "Información Nutricional:"
   }
 }

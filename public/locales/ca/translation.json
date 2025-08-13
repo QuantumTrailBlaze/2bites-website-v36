@@ -10,7 +10,7 @@
     "contact_button": "Contacte"
   },
   "hero": {
-    "title": "Ingredients liofilitzats 100% naturals. Revoluciona la teva oferta saludable.",
+    "title": "Ingredients liofilitzats 100% naturals. Revoluciona la teva oferta healthy.",
     "subtitle": "Redueix costos, guanya temps i eleva els teus plats amb ingredients naturals i sense malbaratament.",
     "cta_sample": "Sol·licita una mostra gratuïta",
     "cta_catalog": "Descobreix el nostre catàleg",
@@ -18,15 +18,15 @@
   },
 	"whyChooseUs": {
     "title": "Per què triar 2bites",
-    "subtitle": "Sense malbaratament, sense fred. Màxima eficiència i color natural.",
+    "subtitle": "Sense minves, sense fred. Màxima eficiència i color natural.",
     "ctaButton": "Com funciona...",
     "ctaAriaLabel": "Descobreix com funciona 2bites",
     "imageAlt": "Ingredients frescos i naturals de 2bites sent preparats",
     "benefits": [
       {
-        "title": "Sense malbaratament ni fred",
+        "title": "Sense minves ni fred",
         "description": "Ingredients llestos per utilitzar, sense refrigeració ni malbaratament.",
-        "ariaLabel": "Icona de benefici: Sense mermes ni fred"
+        "ariaLabel": "Icona de benefici: Sense minves ni fred"
       },
       {
         "title": "Conserva fins al 90% de vitamines",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Ràpid, net i visual",
-        "description": "S'integra fàcilment en qualsevol cuina professional.",
+        "description": "S'integra fàcil en qualsevol cuina professional.",
         "ariaLabel": "Icona de benefici: Ràpid, net i visual"
       }
     ]
@@ -56,7 +56,7 @@
       },
       {
         "title": "Snacks Naturals",
-        "desc": "Bossetes monodosi llestes per a vending i retail saludable.",
+        "desc": "Bosses monodosis llestes per a vending i retail saludable.",
         "ctaLabel": "Veure varietats"
       }
     ]
@@ -67,7 +67,7 @@
     "sectorList": [
       {
         "title": "Cafeteries & Coffee Shops",
-        "desc": "Smoothies ràpids, toppings per a latte o iogurt bowls. Prepara begudes innovadores i deliciosos snacks que encantaran als teus clients.",
+        "desc": "Smoothies ràpids, toppings per a latte o yogurt bowls. Prepara begudes innovadores i deliciosos snacks que encantaran als teus clients.",
         "ctaLabel": "Idees per a la teva carta"
       },
       {
@@ -77,7 +77,7 @@
       },
       {
         "title": "Rebosteria & Fleca",
-        "desc": "Fruita natural en pols o trossos per a masses i decoració. Afegeix un toc de sabor i color autèntic a les teves creacions.",
+        "desc": "Fruita natural en pols o peces per a masses i decoració. Afegeix un toc de sabor i color autèntic a les teves creacions fornejades.",
         "ctaLabel": "Fes la teva pastisseria única"
       },
       {
@@ -89,12 +89,12 @@
   },
 	"howItWorksSection": {
     "mainTitle": "Tecnologia & Sostenibilitat",
-    "mainSubtitle": "Descobreix el procés natural i eficient per conservar fins al 90% de vitamines, reduir consums energètics en un 75% i promoure el zero malbaratament.",
+    "mainSubtitle": "Descobreix el procés natural i eficient per conservar fins al 90% de vitamines, reduir consums energètics en un 75% i promoure zero malbaratament.",
     "phases": [
       {
         "phaseNumber": "Fase 1",
         "title": "SELECCIÓ I TALL",
-        "description": "Tall immediat per evitar l'oxidació",
+        "description": "Tall immediat per evitar oxidació",
         "altText": "Pomes fresques seleccionades per a liofilització"
       },
       {
@@ -145,8 +145,8 @@
       {
         "title": "Selecció amb sentit",
         "texts": [
-          "Ingredients prèmium que aporten valor real a la teva carta.",
-          "Distribuïm productes exclusivament seleccionats directament del productor o fabricant, triats pel seu rendiment en cuina professional."
+          "Ingredients premium que aporten valor real a la teva carta.",
+          "Distribuïm productes exclusius seleccionats directament del productor o fabricant, triats pel seu rendiment en cuina professional."
         ]
       },
       {
@@ -166,9 +166,9 @@
     ]
   },
 	"testimonial": {
-    "title": "La confiança comença amb la primera mossegada",
+    "title": "La confiança comença per la primera mossegada",
     "subtitle": "Xefs i professionals ja estan provant els nostres productes. Sigues part de la nova cuina eficient i natural.",
-    "quote": "\"La textura i el sabor ens van sorprendre. Vam guanyar temps sense perdre qualitat a la cuina.\"",
+    "quote": "\"La textura i el sabor ens van sorprendre. Vam guanyar temps sense perdre qualitat en cuina.\"",
     "author": "— Xef a Barcelona"
   },
   "communitySection": {
@@ -176,7 +176,7 @@
     "subtitle": "Descobreix com s'utilitzen els nostres productes en cuines reals.",
     "imageAlts": {
       "bowl": "Deliciós bol d'esmorzar",
-      "smoothies": "Smoothies acolorits",
+      "smoothies": "Smoothies colorits",
       "tea": "Te de taronja"
     }
   },
@@ -204,11 +204,11 @@
   },
 	"legalNoticePage": {
     "title": "Avís Legal",
-    "lastUpdated": "Darrera actualització: 15 de juliol de 2024",
+    "lastUpdated": "Última actualització: 15 de juliol de 2024",
     "sections": [
       {
         "title": "Titularitat del lloc web",
-        "content": "En compliment amb el deure d'informació recollit a l'article 10 de la Llei 34/2002, de Serveis de la Societat de la Informació i Comerç Electrònic (LSSI-CE), s'informa el següent:",
+        "content": "En compliment amb el deure d'informació recollit en l'article 10 de la Llei 34/2002, de Serveis de la Societat de la Informació i Comerç Electrònic (LSSI-CE), s'informa el següent:",
         "listItems": [
           "<1>Titular:</1> 2bites Company SCP",
           "<1>Correu electrònic de contacte:</1> info@2bitesco.com",
@@ -218,11 +218,11 @@
       },
       {
         "title": "Objecte",
-        "content": "Aquest lloc web té com a finalitat informar sobre els productes liofilitzats distribuïts per 2bites Company i facilitar la captació de leads professionals del sector HORECA."
+        "content": "El present lloc web té com a finalitat informar sobre els productes liofilitzats distribuïts per 2bites Company i facilitar la captació de leads professionals del sector HORECA."
       },
       {
         "title": "Propietat intel·lectual",
-        "content": "Tots els continguts del lloc web (textos, imatges, logotips, marques) són propietat de 2bites Company o de tercers que n'han autoritzat l'ús. Queda prohibida la seva reproducció total o parcial sense autorització expressa."
+        "content": "Tots els continguts del lloc web (textos, imatges, logos, marques) són propietat de 2bites Company o de tercers que han autoritzat el seu ús. Queda prohibida la seva reproducció total o parcial sense autorització expressa."
       },
       {
         "title": "Responsabilitat",
@@ -236,7 +236,7 @@
   },
 	"privacyPolicyPage": {
     "title": "Política de Privacitat",
-    "lastUpdated": "Darrera actualització: 15 de juliol de 2024",
+    "lastUpdated": "Última actualització: 15 de juliol de 2024",
     "sections": [
       {
         "title": "Responsable del tractament",
@@ -270,15 +270,15 @@
       },
       {
         "title": "Termini de conservació",
-        "content": "Les teves dades es conservaran durant el temps necessari per complir amb la finalitat per a la qual van ser recollides o fins que en sol·licitis l'eliminació."
+        "content": "Les teves dades es conservaran durant el temps necessari per complir amb la finalitat per a la qual van ser recollides o fins que sol·licitis la seva eliminació."
       },
       {
         "title": "Encarregats del tractament",
-        "content": "Fem servir serveis de tercers com Supabase, que compten amb les seves pròpies polítiques de privacitat i garanties adequades."
+        "content": "Utilitzem serveis de tercers com Supabase, que compten amb les seves pròpies polítiques de privacitat i garanties adequades."
       },
       {
         "title": "Mesures de seguretat",
-        "content": "Apliquem protocols i tecnologies segures per protegir les teves dades enfront d'accessos no autoritzats."
+        "content": "Apliquem protocols i tecnologies segures per protegir les teves dades davant d'accessos no autoritzats."
       }
     ]
   },
@@ -286,9 +286,9 @@
     "backToProducts": "Tornar a productes",
     "hero": {
       "title": "Smoothies instantanis 100% naturals",
-      "subtitle": "Fruita natural liofilitzada a punt per barrejar. Sense fred, sense additius. Perfectes per a smoothies baristes, bars saludables o vending prèmium.",
+      "subtitle": "Fruita natural liofilitzada llesta per barrejar. Sense fred, sense additius. Perfectes per a smoothies baristes, bars saludables o vending premium.",
       "ctaButton": "Demana pressupost",
-      "imageAlt": "Smoothie de gerd servit en un got"
+      "imageAlt": "Smoothie de gerds servit en un got"
     },
     "productsTitle": "Els nostres productes",
     "productList": [
@@ -331,7 +331,7 @@
       "subtitle": "Perfecte per a cafeteries, gimnasos, vending o spas. Es barreja en segons i se serveix sense esforç.",
       "ctaButton": "Demana pressupost",
       "imageAlt1": "Bol amb nabius, gerds i cereals per a smoothie",
-      "imageAlt2": "Smoothie violeta servit en un got al costat de fruites"
+      "imageAlt2": "Smoothie violet servit en un got al costat de fruites"
     },
     "form": {
       "title": "Sol·licitar Pressupost de Smoothies",
@@ -361,7 +361,7 @@
       },
       {
         "name": "Fruit Slices – Rodanxes",
-        "description": "• Xips i làmines decoratives\n• Postres, pastissos o cocteleria\n• Textura fina i cruixent",
+        "description": "• Chips i làmines decoratives\n• Postres, pastissos o cocteleria\n• Textura fina i cruixent",
         "imageAlt": "Rodanxes de taronja, poma, maduixa i plàtan sobre fons clar"
       },
       {
@@ -399,7 +399,7 @@
     "backToProducts": "Tornar a productes",
     "hero": {
       "title": "Snacks naturals 100% de fruita",
-      "subtitle": "Cruixents, deliciosos i llestos per consumir. Fets només amb fruita 100% natural, sense additius ni conservants. Perfectes com a piscolabis prèmium.",
+      "subtitle": "Cruixents, deliciosos i llestos per consumir. Fets només amb fruita 100% natural, sense additius ni conservants. Perfectes com a tentempié premium.",
       "ctaButton": "Demana pressupost",
       "imageAlt": "Snack de maduixa 100% natural"
     },
@@ -422,7 +422,7 @@
       },
       {
         "name": "Snack de Plàtan",
-        "description": "• 100% Plàtan liofilitzat\n• Ideal per emportar\n• Textura lleugera i natural",
+        "description": "• 100% Plàtan liofilitzat\n• Ideal per portar\n• Textura lleugera i natural",
         "imageAlt": "Snack de plàtan natural liofilitzat"
       }
     ],
@@ -437,7 +437,7 @@
       "Llestos per consumir",
       "Llarga durada sense fred",
       "Sense sucres afegits",
-      "Ideals per emportar"
+      "Ideals per portar"
     ],
     "inspiration": {
       "title": "Inspiració",
@@ -454,13 +454,13 @@
 	"leadMagnetForm": {
     "header": {
       "title": "Descarrega el nostre Catàleg Professional",
-      "subtitle": "Completa les teves dades i accedeix a la nostra selecció prèmium de productes."
+      "subtitle": "Completa les teves dades i accedeix a la nostra selecció premium de productes."
     },
     "fields": {
       "fullNameLabel": "Nom Complet",
       "fullNamePlaceholder": "Ex: Anna Pérez",
       "emailLabel": "Correu Electrònic",
-      "emailPlaceholder": "tu@empresa.com",
+      "emailPlaceholder": "el_teu@empresa.com",
       "establishmentLabel": "Nom de l'Establiment",
       "establishmentPlaceholder": "Ex: Restaurant El Sabor",
       "cityLabel": "Ciutat",
@@ -473,10 +473,10 @@
     "errors": {
       "reviewFields": "Revisa els camps. Tots han d'estar complets i correctament escrits.",
       "mustAcceptPolicy": "Has d'acceptar la política de privacitat per continuar.",
-      "alreadyRequested": "Ja has sol·licitat el catàleg amb aquest email i establiment.",
+      "alreadyRequested": "Ja has sol·licitat el catàleg amb aquest correu electrònic i establiment.",
       "saveErrorPrefix": "Error en desar:",
-      "linkGenerationError": "Les teves dades s'han desat, però no hem pogut generar l'enllaç. Contacta amb suport.",
-      "unexpectedErrorPrefix": "Ha ocorregut un error inesperat:"
+      "linkGenerationError": "Les teves dades es van desar, però no vam poder generar l'enllaç. Contacta amb suport.",
+      "unexpectedErrorPrefix": "Va ocórrer un error inesperat:"
     },
     "button": {
       "submitting": "Processant...",
@@ -508,15 +508,13 @@
       "phoneOptional": "(Opcional)",
       "phonePlaceholder": "Ex: 600123456",
       "emailLabel": "Correu Electrònic",
-      "emailPlaceholder": "tu@example.com",
+      "emailPlaceholder": "el_teu@example.com",
       "establishmentTypeLabel": "Tipus d'Establiment",
       "establishmentTypePlaceholder": "Selecciona un tipus",
       "establishmentNameLabel": "Nom de l'Establiment",
       "establishmentNamePlaceholder": "Ex: Restaurant La Bona Taula",
       "locationLabel": "Ubicació (Ciutat, CP)",
       "locationPlaceholder": "Ex: Barcelona, 08001",
-      "shippingAddressLabel": "Adreça d'Enviament Completa",
-      "shippingAddressPlaceholder": "Ex: Carrer Fals 123",
       "interestedProductsLabel": "Productes d'Interès",
       "interestedProductsOptional": "(Opcional, fins a 3)"
     },
@@ -550,7 +548,7 @@
     "submission": {
       "alreadyRequested": "Ja has sol·licitat una mostra!",
       "submitErrorPrefix": "Error en enviar:",
-      "tryAgain": "Torna-ho a provar."
+      "tryAgain": "Torna-ho a intentar."
     },
     "successModal": {
       "close": "Tancar",
@@ -591,16 +589,19 @@
     },
     "submission": {
       "submitErrorPrefix": "Error en enviar:",
-      "tryAgain": "Torna-ho a provar."
+      "tryAgain": "Torna-ho a intentar."
     },
     "successModal": {
       "close": "Tancar",
       "title": "Missatge Enviat!",
-      "message": "El teu missatge s'ha enviat correctament."
+      "message": "El teu missatge ha estat enviat correctament."
     },
     "policyModal": {
       "title": "Política de Privacitat",
       "closeButton": "Tancar"
     }
+  },
+  "receiptPage": {
+    "nutritionalInfoTitle": "Informació Nutricional:"
   }
 }

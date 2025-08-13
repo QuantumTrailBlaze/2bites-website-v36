@@ -112,7 +112,7 @@ const ReceiptPage = () => {
             {/* Hero Section - Now the main two-column layout */}
             <section className="w-full bg-gradient-to-br from-primary/10 to-background py-16 md:py-24">
               <div className="container mx-auto px-4 max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 items-start"> {/* Changed items-center to items-start */}
-                {/* Left Column: Title, Perfecto para, Tags */}
+                {/* Left Column: Title, Perfecto para, Tags, Nutritional Info */}
                 <div className="text-center md:text-left">
                   {/* Title */}
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary leading-tight mb-8 animate-fade-in-up">
@@ -137,6 +137,49 @@ const ReceiptPage = () => {
                           {tag.text}
                         </span>
                       ))}
+                    </div>
+                  )}
+
+                  {/* Nutritional Information Section - NEW PLACEMENT */}
+                  {receiptData.nutritional_info && (
+                    <div className="mt-6 animate-fade-in-up-delay-3"> {/* Changed mt-8 to mt-6 */}
+                      <h3 className="text-lg font-semibold text-primary mb-3"> {/* Changed text-xl to text-lg, mb-4 to mb-3 */}
+                        {t('receiptPage.nutritionalInfoTitle')}
+                      </h3>
+                      <div className="overflow-x-auto rounded-lg p-4"> {/* Removed border and shadow-sm, added p-4 */}
+                        <table className="w-full text-sm border-collapse"> {/* Changed text-base to text-sm */}
+                          <tbody>
+                            <tr className="border-b border-border/50 last:border-b-0">
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Calorías:</td> {/* Changed py-2 to py-1.5 */}
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.calories_kcal || 'N/A'} kcal</td> {/* Changed py-2 to py-1.5 */}
+                            </tr>
+                            <tr className="border-b border-border/50 last:border-b-0">
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Proteínas:</td>
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.protein_g || 'N/A'} g</td>
+                            </tr>
+                            <tr className="border-b border-border/50 last:border-b-0">
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Carbohidratos:</td>
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.carbohydrates_g || 'N/A'} g</td>
+                            </tr>
+                            <tr className="border-b border-border/50 last:border-b-0">
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Grasas:</td>
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.fats_g || 'N/A'} g</td>
+                            </tr>
+                            <tr className="border-b border-border/50 last:border-b-0">
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Fibra:</td>
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.fiber_g || 'N/A'} g</td>
+                            </tr>
+                            <tr className="border-b border-border/50 last:border-b-0">
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Azúcares:</td>
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.sugars_g || 'N/A'} g</td>
+                            </tr>
+                            <tr className="last:border-b-0"> {/* No border-b on the last row */}
+                              <td className="py-1.5 px-4 font-medium text-foreground/80">Sodio:</td>
+                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.sodium_mg || 'N/A'} mg</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -167,7 +210,7 @@ const ReceiptPage = () => {
               </div>
             </section>
 
-            {/* Remaining sections (Ingredients, Benefits, etc.) */}
+            {/* Remaining sections (Ingredients, Benefits, How to Prepare, Quote) */}
             <div className="container mx-auto px-4 py-12 md:py-16 max-w-3xl space-y-12 md:space-y-16">
               {/* Ingredients Section */}
               {receiptData.ingredients && receiptData.ingredients.length > 0 && (
@@ -228,51 +271,6 @@ const ReceiptPage = () => {
                     <span className="text-primary text-4xl font-serif ml-2">”</span>
                   </blockquote>
                 </section>
-              )}
-
-              {/* Nutritional Information Section */}
-              {receiptData.nutritional_info && (
-                <Card className="animate-fade-in-up">
-                  <CardHeader>
-                    <CardTitle className="text-muted-foreground">Información Nutricional:</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="overflow-x-auto">
-                      <table className="w-full text-lg border-collapse">
-                        <tbody>
-                          <tr className="border-b border-border">
-                            <td className="py-2 px-4 font-medium">Calorías:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.calories_kcal || 'N/A'} kcal</td>
-                          </tr>
-                          <tr className="border-b border-border">
-                            <td className="py-2 px-4 font-medium">Proteínas:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.protein_g || 'N/A'} g</td>
-                          </tr>
-                          <tr className="border-b border-border">
-                            <td className="py-2 px-4 font-medium">Carbohidratos:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.carbohydrates_g || 'N/A'} g</td>
-                          </tr>
-                          <tr className="border-b border-border">
-                            <td className="py-2 px-4 font-medium">Grasas:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.fats_g || 'N/A'} g</td>
-                          </tr>
-                          <tr className="border-b border-border">
-                            <td className="py-2 px-4 font-medium">Fibra:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.fiber_g || 'N/A'} g</td>
-                          </tr>
-                          <tr className="border-b border-border">
-                            <td className="py-2 px-4 font-medium">Azúcares:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.sugars_g || 'N/A'} g</td>
-                          </tr>
-                          <tr>
-                            <td className="py-2 px-4 font-medium">Sodio:</td>
-                            <td className="py-2 px-4 text-right">{receiptData.nutritional_info.sodium_mg || 'N/A'} mg</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </CardContent>
-                </Card>
               )}
             </div>
           </div>
