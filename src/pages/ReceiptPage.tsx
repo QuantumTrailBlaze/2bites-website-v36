@@ -115,20 +115,20 @@ const ReceiptPage = () => {
                 {/* Left Column: Title, Perfecto para, Tags */}
                 <div className="text-center md:text-left">
                   {/* Title */}
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary leading-tight mb-4 animate-fade-in-up">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary leading-tight mb-8 animate-fade-in-up">
                     {receiptData.title}
                   </h1>
 
                   {/* Perfecto para Section (no card) */}
                   {receiptData.perfect_for && (
-                    <div className="text-lg text-foreground/80 leading-relaxed mb-4 animate-fade-in-up-delay">
+                    <div className="text-lg text-foreground/80 leading-relaxed mb-8 animate-fade-in-up-delay">
                       <p>{receiptData.perfect_for}</p>
                     </div>
                   )}
 
                   {/* Tags Section (no card) */}
                   {receiptData.tags && receiptData.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-3 animate-fade-in-up-delay-2">
+                    <div className="flex flex-wrap gap-3 mb-12 animate-fade-in-up-delay-2">
                       {receiptData.tags.map((tag, index) => (
                         <span key={index} className={cn(
                           `px-3 py-1 text-xs font-medium shadow-sm rounded-full`,
