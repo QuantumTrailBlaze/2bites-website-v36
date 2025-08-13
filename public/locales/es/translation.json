@@ -1,0 +1,606 @@
+{
+  "header": {
+    "nav_home": "Inicio",
+    "nav_advantages": "Ventajas",
+    "nav_products": "Productos",
+    "nav_applications": "Aplicaciones",
+    "nav_technology": "Tecnología",
+    "nav_about": "Nosotros",
+    "nav_community": "Comunidad",
+    "contact_button": "Contacto"
+  },
+  "hero": {
+    "title": "Ingredientes liofilizados 100 % naturales. Revoluciona tu oferta healthy.",
+    "subtitle": "Reduce costes, gana tiempo y eleva tus platos con ingredientes naturales y sin desperdicio.",
+    "cta_sample": "Solicita una muestra gratuita",
+    "cta_catalog": "Descubre nuestro catálogo",
+    "explore_products": "O explora nuestros productos"
+  },
+	"whyChooseUs": {
+    "title": "Por qué elegir 2bites",
+    "subtitle": "Sin mermas, sin frío. Máxima eficiencia y color natural.",
+    "ctaButton": "Como funciona...",
+    "ctaAriaLabel": "Descubre cómo funciona 2bites",
+    "imageAlt": "Ingredientes frescos y naturales de 2bites siendo preparados",
+    "benefits": [
+      {
+        "title": "Sin mermas ni frío",
+        "description": "Ingredientes listos para usar, sin refrigeración ni desperdicio.",
+        "ariaLabel": "Icono de beneficio: Sin mermas ni frío"
+      },
+      {
+        "title": "Conserva hasta el 90% de vitaminas",
+        "description": "Gracias a nuestra tecnología de liofilización avanzada.",
+        "ariaLabel": "Icono de beneficio: Conserva vitaminas"
+      },
+      {
+        "title": "Rápido, limpio y visual",
+        "description": "Se integra fácil en cualquier cocina profesional.",
+        "ariaLabel": "Icono de beneficio: Rápido, limpio y visual"
+      }
+    ]
+  },
+	"productsSection": {
+    "title": "Nuestros productos",
+    "subtitle": "Soluciones 100% naturales y eficientes para profesionales de la cocina.",
+    "productList": [
+      {
+        "title": "Instant Smoothie",
+        "desc": "Batidos instantáneos, sabores vibrantes sin aditivos.",
+        "ctaLabel": "Ver sabores"
+      },
+      {
+        "title": "Formato Horeca",
+        "desc": "Polvos, cubos, rodajas, frutas enteras. Pensado para chefs, obradores y pastelerías.",
+        "ctaLabel": "Ver formatos"
+      },
+      {
+        "title": "Snacks Naturales",
+        "desc": "Bolsitas monodosis listas para vending y retail saludable.",
+        "ctaLabel": "Ver variedades"
+      }
+    ]
+  },
+	"applicationsSection": {
+    "title": "Aplicaciones por Sector",
+    "subtitle": "Descubre aplicaciones innovadoras de nuestros productos liofilizados en diversos sectores.",
+    "sectorList": [
+      {
+        "title": "Cafeterías & Coffee Shops",
+        "desc": "Smoothies rápidos, toppings para latte o yogurt bowls. Prepara bebidas innovadoras y deliciosos snacks que encantarán a tus clientes.",
+        "ctaLabel": "Ideas para tu carta"
+      },
+      {
+        "title": "Gimnasios & Centros Fitness",
+        "desc": "Snacks naturales, vending saludable y batidos post-entreno. Ofrece opciones nutritivas y energéticas para deportistas.",
+        "ctaLabel": "Soluciones post-entreno"
+      },
+      {
+        "title": "Repostería & Panadería",
+        "desc": "Fruta natural en polvo o piezas para masas y decoración. Añade un toque de sabor y color auténtico a tus creaciones horneadas.",
+        "ctaLabel": "Haz tu pastelería única"
+      },
+      {
+        "title": "Coctelería & Eventos",
+        "desc": "Frutas enteras o rodajas para mocktails y decoración premium. Sorprende con bebidas visualmente atractivas y sabores intensos.",
+        "ctaLabel": "Descubre cómo sorprender"
+      }
+    ]
+  },
+	"howItWorksSection": {
+    "mainTitle": "Tecnología & Sostenibilidad",
+    "mainSubtitle": "Descubre el proceso natural y eficiente para conservar hasta el 90 % de vitaminas, reducir consumos energéticos en un 75 % y promover cero desperdicio.",
+    "phases": [
+      {
+        "phaseNumber": "Fase 1",
+        "title": "SELECCIÓN Y CORTE",
+        "description": "Corte inmediato para evitar oxidación",
+        "altText": "Manzanas frescas seleccionadas para liofilización"
+      },
+      {
+        "phaseNumber": "Fase 2",
+        "title": "CONGELACIÓN RÁPIDA",
+        "description": "A −20 °C para preservar textura y nutrientes",
+        "altText": "Proceso de congelación rápida de frutas"
+      },
+      {
+        "phaseNumber": "Fase 3",
+        "title": "SECADO",
+        "description": "Eliminación del agua al vacío mediante sublimación, sin calor",
+        "altText": "Equipo de secado por sublimación al vacío"
+      },
+      {
+        "phaseNumber": "Fase 4",
+        "title": "ENVASADO ECOLÓGICO",
+        "description": "Sellado en seco, sin conservantes ni frío",
+        "altText": "Producto liofilizado en envase ecológico"
+      }
+    ],
+    "benefitsTitle": "Beneficios reales de la tecnología de secado al vacío",
+    "benefitsSubtitle": "Más que un proceso técnico: las frutas mantienen su sabor, nutrientes y textura original. Sin aditivos. Sin desperdicio.",
+    "benefits": [
+      {
+        "title": "Nutrientes intactos",
+        "description": "Secado a -20°C que conserva hasta el 90% de las vitaminas y antioxidantes.",
+        "altText": "Icono circular verde con símbolos de vitaminas"
+      },
+      {
+        "title": "Sabor auténtico",
+        "description": "El producto mantiene su textura y sabor sin encogerse ni degradarse. Sin azúcares ni conservantes añadidos.",
+        "altText": "Icono circular verde de una manzana"
+      },
+      {
+        "title": "Cero desperdicio",
+        "description": "Larga conservación sin aditivos ni frío. Ideal para una cocina sostenible.",
+        "altText": "Icono circular verde con símbolo de reciclaje"
+      }
+    ]
+  },
+	"aboutSection": {
+    "title": "Selección Inteligente para Cocinas Profesionales",
+    "subtitle": "Distribución exclusiva de ingredientes que transforman tu carta y tu operativa",
+    "imageAlt": "Distribución exclusiva de ingredientes para cocina profesional por 2bites",
+    "cta": "Descubre cómo 2bites mejora la eficiencia y creatividad de tu cocina",
+    "benefits": [
+      {
+        "title": "Selección con sentido",
+        "texts": [
+          "Ingredientes premium que aportan valor real a tu carta.",
+          "Distribuimos productos exclusivos seleccionados directamente del productor o fabricante, elegidos por su rendimiento en cocina profesional."
+        ]
+      },
+      {
+        "title": "Eficiencia que se nota",
+        "texts": [
+          "Soluciones que reducen mermas, pasos y costes operativos.",
+          "Desde smoothies instantáneos hasta toppings listos para servir: nuestros productos están diseñados para optimizar tu flujo de trabajo."
+        ]
+      },
+      {
+        "title": "Calidad constante todo el año",
+        "texts": [
+          "Textura, color y sabor sin depender de la temporada.",
+          "Conservación sin frío, menos manipulación, resultados consistentes."
+        ]
+      }
+    ]
+  },
+	"testimonial": {
+    "title": "La confianza empieza por el primer bocado",
+    "subtitle": "Chefs y profesionales ya están probando nuestros productos. Sé parte de la nueva cocina eficiente y natural.",
+    "quote": "\"La textura y el sabor nos sorprendieron. Ganamos tiempo sin perder calidad en cocina.\"",
+    "author": "— Chef en Barcelona"
+  },
+  "communitySection": {
+    "title": "Síguenos en Instagram",
+    "subtitle": "Descubre cómo se usan nuestros productos en cocinas reales.",
+    "imageAlts": {
+      "bowl": "Delicioso bol de desayuno",
+      "smoothies": "Smoothies coloridos",
+      "tea": "Té de naranja"
+    }
+  },
+	"ctaBeforeFooter": {
+    "title": "¿Eres chef o responsable de compras en cocina profesional?",
+    "subtitle": "Queremos que descubras cómo optimizar tu cocina sin renunciar al sabor.",
+    "buttonText": "Escríbenos",
+    "formTitle": "Escríbenos"
+  },
+	"footer": {
+    "tagline": "Ingredientes liofilizados para profesionales. Frescura, eficiencia y calidad en cada plato.",
+    "navTitle": "Navegación",
+    "contactTitle": "Contacto",
+    "instagramAriaLabel": "Instagram de 2bites company",
+    "copyright": "© {{year}} 2bites Company. Todos los derechos reservados.",
+    "legalNotice": "Aviso legal",
+    "privacyPolicy": "Política de privacidad",
+    "navLinks": [
+      { "label": "Inicio" },
+      { "label": "Productos" },
+      { "label": "Aplicaciones" },
+      { "label": "Sobre 2bites" },
+      { "label": "Contacto" }
+    ]
+  },
+	"legalNoticePage": {
+    "title": "Aviso Legal",
+    "lastUpdated": "Última actualización: 15 de julio de 2024",
+    "sections": [
+      {
+        "title": "Titularidad del sitio web",
+        "content": "En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), se informa lo siguiente:",
+        "listItems": [
+          "<1>Titular:</1> 2bites Company SCP",
+          "<1>Correo electrónico de contacto:</1> info@2bitesco.com",
+          "<1>Sede social:</1> Terrassa",
+          "<1>CIF/NIF:</1> J22596068"
+        ]
+      },
+      {
+        "title": "Objeto",
+        "content": "El presente sitio web tiene como finalidad informar sobre los productos liofilizados distribuidos por 2bites Company y facilitar la captación de leads profesionales del sector HORECA."
+      },
+      {
+        "title": "Propiedad intelectual",
+        "content": "Todos los contenidos del sitio web (textos, imágenes, logos, marcas) son propiedad de 2bites Company o de terceros que han autorizado su uso. Queda prohibida su reproducción total o parcial sin autorización expresa."
+      },
+      {
+        "title": "Responsabilidad",
+        "content": "2bites no se hace responsable del mal uso de los contenidos ni de los posibles daños derivados del uso de la web. Nos reservamos el derecho de modificar o eliminar contenidos sin previo aviso."
+      },
+      {
+        "title": "Enlaces externos",
+        "content": "Este sitio puede contener enlaces a sitios web de terceros. 2bites no se responsabiliza del contenido ni de las prácticas de privacidad de estos sitios externos."
+      }
+    ]
+  },
+	"privacyPolicyPage": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 15 de julio de 2024",
+    "sections": [
+      {
+        "title": "Responsable del tratamiento",
+        "lines": [
+          "<1>Nombre comercial:</1> 2bites Company SCP",
+          "<1>Correo de contacto:</1> info@2bitesco.com"
+        ]
+      },
+      {
+        "title": "Finalidad",
+        "content": "Recogida de datos personales para el envío del catálogo profesional y comunicaciones comerciales relacionadas con los productos de 2bites."
+      },
+      {
+        "title": "Base legal",
+        "content": "Consentimiento expreso del interesado."
+      },
+      {
+        "title": "Datos recogidos",
+        "content": "Los formularios de contacto o descarga recopilan:",
+        "listItems": [
+          "Nombre",
+          "Email",
+          "Teléfono (en caso que se haya facilitado)",
+          "Empresa/establecimiento",
+          "Ciudad"
+        ]
+      },
+      {
+        "title": "Derechos",
+        "content": "Puedes ejercer tus derechos de acceso, rectificación, supresión, limitación y portabilidad escribiéndonos a info@2bitesco.com."
+      },
+      {
+        "title": "Plazo de conservación",
+        "content": "Tus datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que fueron recabados o hasta que solicites su eliminación."
+      },
+      {
+        "title": "Encargados del tratamiento",
+        "content": "Usamos servicios de terceros como Supabase, que cuentan con sus propias políticas de privacidad y garantías adecuadas."
+      },
+      {
+        "title": "Medidas de seguridad",
+        "content": "Aplicamos protocolos y tecnologías seguras para proteger tus datos frente a accesos no autorizados."
+      }
+    ]
+  },
+	"instantSmoothiesPage": {
+    "backToProducts": "Volver a productos",
+    "hero": {
+      "title": "Smoothies instantáneos 100% naturales",
+      "subtitle": "Fruta natural liofilizada lista para mezclar. Sin frío, sin aditivos. Perfectos para smoothies baristas, bares saludables o vending premium.",
+      "ctaButton": "Pide presupuesto",
+      "imageAlt": "Smoothie de frambuesa servido en un vaso"
+    },
+    "productsTitle": "Nuestros productos",
+    "productList": [
+      {
+        "name": "Smoothie Pink",
+        "description": "• Melocotón, Fresas y Plátano\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "imageAlt": "Paquete de Smoothie Pink con Melocotón, Fresas y Plátano"
+      },
+      {
+        "name": "Smoothie Yellow",
+        "description": "• Mango, Plátano y Piña\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "imageAlt": "Paquete de Smoothie Yellow con Mango, Plátano y Piña"
+      },
+      {
+        "name": "Smoothie Violet",
+        "description": "• Arándano, Mango y Manzana\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "imageAlt": "Paquete de Smoothie Violet con Arándano, Mango y Manzana"
+      },
+      {
+        "name": "Smoothie Magenta",
+        "description": "• Cereza ácida, Piña y Plátano\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "imageAlt": "Paquete de Smoothie Magenta con Cereza ácida, Piña y Plátano"
+      }
+    ],
+    "tags": {
+      "noCooling": "Sin frío",
+      "vegan": "Vegano"
+    },
+    "benefitsTitle": "Beneficios clave",
+    "keyBenefits": [
+      "Sin mermas ni frío",
+      "Conserva el 90% de vitaminas",
+      "24g = 150g de fruta fresca",
+      "Rápido, limpio, sin manipulación",
+      "Caducidad: 18 meses",
+      "16 sobres por caja"
+    ],
+    "inspiration": {
+      "title": "Inspiración",
+      "subtitle": "Perfecto para cafeterías, gimnasios, vending o spas. Se mezcla en segundos y se sirve sin esfuerzo.",
+      "ctaButton": "Pide presupuesto",
+      "imageAlt1": "Bowl con arándanos, frambuesas y cereales para smoothie",
+      "imageAlt2": "Smoothie violet servido en un vaso junto a frutas"
+    },
+    "form": {
+      "title": "Solicitar Presupuesto de Smoothies",
+      "requestTypeHero": "Presupuesto Smoothies Instantáneos (Hero)",
+      "requestTypeInspiration": "Presupuesto Smoothies Instantáneos (Inspiración)"
+    }
+  },
+	"bulkPage": {
+    "backToProducts": "Volver a productos",
+    "hero": {
+      "title": "¿Trabajas en repostería o alimentación profesional?",
+      "subtitle": "Descubre cómo nuestros formatos bulk te permiten innovar sin renunciar al sabor ni al rendimiento.",
+      "ctaButton": "Pide presupuesto",
+      "imageAlt": "Cubos de fruta liofilizada en cuadrícula ordenada por colores"
+    },
+    "productsTitle": "Nuestros productos",
+    "productList": [
+      {
+        "name": "Fruit Boost – Polvos",
+        "description": "• 100% fruta pulverizada\n• Ideal para smoothies y repostería\n• Sin azúcar, ni aditivos",
+        "imageAlt": "Tarrinas con fruta liofilizada en polvo de distintos colores"
+      },
+      {
+        "name": "Fruit Bites – Cubos",
+        "description": "• Cubos crujientes y sabrosos\n• Snack, topping o infusionados\n• Larga conservación sin frío",
+        "imageAlt": "Cubos de fruta liofilizada en cuadrícula ordenada por colores"
+      },
+      {
+        "name": "Fruit Slices – Rodajas",
+        "description": "• Chips y láminas decorativas\n• Postres, tartas o coctelería\n• Textura fina y crujiente",
+        "imageAlt": "Rodajas de naranja, manzana, fresa y plátano sobre fondo claro"
+      },
+      {
+        "name": "Whole Fruits – Entera",
+        "description": "• Fruta entera sin manipular\n• Infusiones, chocolate, mixología\n• Preserva sabor y forma original",
+        "imageAlt": "Tarro de cristal con mezcla de frutas liofilizadas enteras"
+      }
+    ],
+    "tags": {
+      "noCooling": "Sin frío",
+      "vegan": "Vegano"
+    },
+    "benefitsTitle": "Beneficios clave",
+    "keyBenefits": [
+      "100 % fruta sin aditivos",
+      "Crujientes, sabrosos y naturales",
+      "Amplia gama de formatos",
+      "Larga conservación sin frío",
+      "Sin azúcares añadidos",
+      "Ideales como topping o decoración"
+    ],
+    "inspiration": {
+      "title": "Inspiración",
+      "subtitle": "Perfecto para chefs creativos, pasteleros y mixólogos. Añade textura, color y sabor real a tus creaciones. Pide tu catálogo personalizado.",
+      "ctaButton": "Pide presupuesto",
+      "imageAlt1": "Plato de postre decorado con frutas",
+      "imageAlt2": "Cóctel decorado con una rodaja de fruta"
+    },
+    "form": {
+      "title": "Solicitar Presupuesto Formato Bulk",
+      "requestType": "Presupuesto Formato Bulk"
+    }
+  },
+	"snacksPage": {
+    "backToProducts": "Volver a productos",
+    "hero": {
+      "title": "Snacks naturales 100% de fruta",
+      "subtitle": "Crujientes, deliciosos y listos para consumir. Hechos solo con fruta 100% natural, sin aditivos ni conservantes. Perfectos como tentempié premium.",
+      "ctaButton": "Pide presupuesto",
+      "imageAlt": "Snack de fresa 100% natural"
+    },
+    "productsTitle": "Nuestros productos",
+    "productList": [
+      {
+        "name": "Snack de Fresa",
+        "description": "• 100% Fresa liofilizada\n• Textura crujiente y natural\n• Ideal como snack saludable",
+        "imageAlt": "Snack de Fresa crujiente 100% fruta"
+      },
+      {
+        "name": "Snack de Piña",
+        "description": "• 100% Piña liofilizada\n• Dulzor tropical sin azúcar\n• Crujiente y sin conservantes",
+        "imageAlt": "Snack de Piña natural"
+      },
+      {
+        "name": "Snack de Melocotón",
+        "description": "• 100% Melocotón liofilizado\n• Sin azúcares añadidos\n• Crujiente y sabroso",
+        "imageAlt": "Snack de melocotón crujiente y natural"
+      },
+      {
+        "name": "Snack de Plátano",
+        "description": "• 100% Plátano liofilizado\n• Ideal para llevar\n• Textura ligera y natural",
+        "imageAlt": "Snack de plátano natural liofilizado"
+      }
+    ],
+    "tags": {
+      "noCooling": "Sin Frío",
+      "vegan": "Vegano"
+    },
+    "benefitsTitle": "Beneficios clave",
+    "keyBenefits": [
+      "100% fruta sin aditivos",
+      "Crujientes y sabrosos",
+      "Listos para consumir",
+      "Larga duración sin frío",
+      "Sin azúcares añadidos",
+      "Ideales para llevar"
+    ],
+    "inspiration": {
+      "title": "Inspiración",
+      "subtitle": "Desde cafeterías modernas hasta eventos exclusivos, nuestros Snacks Naturales son el aliado perfecto para ofrecer opciones saludables, prácticas y atractivas.",
+      "ctaButton": "Pide presupuesto",
+      "imageAlt1": "Yogur con arándanos, frambuesas y cereales para smoothie",
+      "imageAlt2": "Snack de melocotón liofilizado"
+    },
+    "form": {
+      "title": "Solicitar Presupuesto de Snacks Naturales",
+      "requestType": "Presupuesto Snacks Naturales"
+    }
+  },
+	"leadMagnetForm": {
+    "header": {
+      "title": "Descarga nuestro Catálogo Profesional",
+      "subtitle": "Completa tus datos y accede a nuestra selección premium de productos."
+    },
+    "fields": {
+      "fullNameLabel": "Nombre Completo",
+      "fullNamePlaceholder": "Ej: Ana Pérez",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "tu@empresa.com",
+      "establishmentLabel": "Nombre del Establecimiento",
+      "establishmentPlaceholder": "Ej: Restaurante El Sabor",
+      "cityLabel": "Ciudad",
+      "cityPlaceholder": "Ej: Madrid"
+    },
+    "consent": {
+      "label": "Acepto la <1>política de privacidad</1> y recibir comunicaciones.",
+      "error": "Debes aceptar la política de privacidad."
+    },
+    "errors": {
+      "reviewFields": "Revisa los campos. Todos deben estar completos y correctamente escritos.",
+      "mustAcceptPolicy": "Debes aceptar la política de privacidad para continuar.",
+      "alreadyRequested": "Ya has solicitado el catálogo con este email y establecimiento.",
+      "saveErrorPrefix": "Error al guardar:",
+      "linkGenerationError": "Tus datos se guardaron, pero no pudimos generar el enlace. Contacta con soporte.",
+      "unexpectedErrorPrefix": "Ocurrió un error inesperado:"
+    },
+    "button": {
+      "submitting": "Procesando...",
+      "idle": "Descargar Catálogo"
+    },
+    "policyModal": {
+      "title": "Política de Privacidad",
+      "closeButton": "Cerrar",
+      "sections": [
+        { "title": "Responsable del tratamiento", "lines": ["<1>Nombre comercial:</1> 2bites Company SCP", "<1>Correo de contacto:</1> <2>info@2bitesco.com</2>"] },
+        { "title": "Finalidad", "content": "Envío del catálogo profesional y comunicaciones comerciales sobre 2bites." },
+        { "title": "Base legal", "content": "Consentimiento expreso del interesado." },
+        { "title": "Datos recogidos", "listItems": ["Nombre", "Email", "Teléfono (en caso que se haya facilitado)", "Empresa/establecimiento", "Ciudad"] },
+        { "title": "Derechos", "content": "Ejercicio de derechos escribiendo a <1>info@2bitesco.com</1>." },
+        { "title": "Plazo de conservación", "content": "Se conservarán mientras sea necesario o hasta solicitud de eliminación." },
+        { "title": "Medidas de seguridad", "content": "Protocolos y tecnologías seguras para proteger tus datos." }
+      ]
+    }
+  },
+	"freeSampleForm": {
+    "header": {
+      "title": "Solicita una Muestra Gratuita",
+      "subtitle": "Queremos que pruebes 2bites en tu cocina."
+    },
+    "fields": {
+      "fullNameLabel": "Nombre Completo",
+      "fullNamePlaceholder": "Ej: Juan Rodríguez",
+      "phoneLabel": "Teléfono",
+      "phoneOptional": "(Opcional)",
+      "phonePlaceholder": "Ej: 600123456",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "tu@example.com",
+      "establishmentTypeLabel": "Tipo de Establecimiento",
+      "establishmentTypePlaceholder": "Selecciona un tipo",
+      "establishmentNameLabel": "Nombre del Establecimiento",
+      "establishmentNamePlaceholder": "Ej: Restaurante La Buena Mesa",
+      "locationLabel": "Ubicación (Ciudad, CP)",
+      "locationPlaceholder": "Ej: Barcelona, 08001",
+      "shippingAddressLabel": "Dirección de Envío Completa",
+      "shippingAddressPlaceholder": "Ej: Calle Falsa 123",
+      "interestedProductsLabel": "Productos de Interés",
+      "interestedProductsOptional": "(Opcional, hasta 3)"
+    },
+    "data": {
+      "establishmentTypes": ["Restaurante", "Bar", "Hotel", "Cafetería", "Catering", "Otro"],
+      "productOptions": [
+        "Smoothy Violet", "Smoothy Magenta", "Smoothy Pink", "Smoothy Yellow",
+        "Snack de Fresa", "Snack de Piña", "Snack de Melocotón", "Snack de Plátano",
+        "Fruit Boost", "Fruit Bites", "Fruit Slices", "Whole Fruits"
+      ]
+    },
+    "consent": {
+      "label": "Acepto la <1>política de privacidad</1> y recibir comunicaciones.",
+      "error": "Debes aceptar la política."
+    },
+    "button": {
+      "submitting": "Enviando...",
+      "idle": "Solicitar muestra"
+    },
+    "footerNote": "📦 Las muestras están sujetas a disponibilidad y revisión.",
+    "validation": {
+      "required": "Este campo es obligatorio.",
+      "invalidName": "Nombre inválido.",
+      "invalidEmail": "Email inválido.",
+      "invalidPhone": "Teléfono inválido.",
+      "selectType": "Selecciona un tipo.",
+      "invalidAddress": "Dirección inválida.",
+      "invalidLocation": "Ubicación inválida.",
+      "formError": "Por favor, corrige los errores."
+    },
+    "submission": {
+      "alreadyRequested": "¡Ya has solicitado una muestra!",
+      "submitErrorPrefix": "Error al enviar:",
+      "tryAgain": "Inténtalo de nuevo."
+    },
+    "successModal": {
+      "close": "Cerrar",
+      "title": "¡Solicitud enviada!",
+      "message": "Gracias por tu interés."
+    },
+    "policyModal": {
+      "title": "Política de Privacidad",
+      "closeButton": "Cerrar"
+    }
+  },
+	"contactForm": {
+    "fields": {
+      "fullNameLabel": "Nombre Completo *",
+      "emailLabel": "Correo Electrónico *",
+      "companyLabel": "Empresa *",
+      "cityLabel": "Ciudad *",
+      "phoneLabel": "Teléfono (Opcional)",
+      "messageLabel": "Comentarios * (mín. 3 palabras, 10 caracteres)"
+    },
+    "consent": {
+      "label": "Acepto la <1>política de privacidad</1> y recibir comunicaciones.",
+      "error": "Debes aceptar la política de privacidad."
+    },
+    "button": {
+      "submitting": "Enviando...",
+      "idle": "Enviar Solicitud"
+    },
+    "validation": {
+      "required": "Este campo es obligatorio.",
+      "invalidName": "Nombre inválido.",
+      "invalidEmail": "Email inválido.",
+      "invalidCompany": "Empresa inválida.",
+      "invalidCity": "Ciudad inválida.",
+      "invalidPhone": "Teléfono inválido.",
+      "messageTooShort": "El mensaje debe tener al menos 3 palabras y 10 caracteres.",
+      "formError": "Corrige los errores y acepta la política de privacidad."
+    },
+    "submission": {
+      "submitErrorPrefix": "Error al enviar:",
+      "tryAgain": "Inténtalo de nuevo."
+    },
+    "successModal": {
+      "close": "Cerrar",
+      "title": "¡Mensaje Enviado!",
+      "message": "Tu mensaje ha sido enviado correctamente."
+    },
+    "policyModal": {
+      "title": "Política de Privacidad",
+      "closeButton": "Cerrar"
+    }
+  }
+}

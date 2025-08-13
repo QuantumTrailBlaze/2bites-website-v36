@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 222.2 84% 4.9%; /* Very dark grey / near black */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 222.2 84% 4.9%; /* Very dark grey / near black */
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 222.2 84% 4.9%; /* Very dark grey / near black */
+
+    --primary: 120 60% 40%; /* A vibrant green, similar to logo */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    --secondary: 120 40% 25%; /* A darker green for titles/accents */
+    --secondary-foreground: 0 0% 100%; /* White */
+
+    --muted: 210 40% 96.1%; /* Light grey for muted backgrounds (e.g., quote) */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Medium grey for muted text */
+
+    --accent: 210 40% 96.1%; /* Light grey for accents */
+    --accent-foreground: 222.2 47.4% 11.2%; /* Dark grey for accent text */
+
+    --destructive: 0 84.2% 60.2%; /* Red for destructive actions */
+    --destructive-foreground: 0 0% 98%; /* White for destructive text */
+
+    --border: 214.3 31.8% 91.4%; /* Light grey for borders */
+    --input: 214.3 31.8% 91.4%; /* Light grey for input borders */
+    --ring: 120 60% 40%; /* Primary green for focus rings */
+
+    --radius: 0.5rem; /* Default border radius */
+  }
+
+  .dark {
+    /* Define dark mode variables here if needed */
+    /* For now, we're focusing on the light theme */
+  }
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .animate-fade-in-up-delay {
+    animation: fadeInUp 0.8s ease-out 0.2s forwards; /* Add a slight delay */
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
