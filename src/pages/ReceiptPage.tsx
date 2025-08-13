@@ -142,43 +142,39 @@ const ReceiptPage = () => {
 
                   {/* Nutritional Information Section - NEW PLACEMENT */}
                   {receiptData.nutritional_info && (
-                    <div className="mt-6 animate-fade-in-up-delay-3"> {/* Changed mt-8 to mt-6 */}
-                      <h3 className="text-lg font-semibold text-primary mb-3"> {/* Changed text-xl to text-lg, mb-4 to mb-3 */}
-                        {t('receiptPage.nutritionalInfoTitle')}
-                      </h3>
-                      <div className="overflow-x-auto rounded-lg p-4"> {/* Removed border and shadow-sm, added p-4 */}
-                        <table className="w-full text-sm border-collapse"> {/* Changed text-base to text-sm */}
-                          <tbody>
-                            <tr className="border-b border-border/50 last:border-b-0">
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Calorías:</td> {/* Changed py-2 to py-1.5 */}
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.calories_kcal || 'N/A'} kcal</td> {/* Changed py-2 to py-1.5 */}
-                            </tr>
-                            <tr className="border-b border-border/50 last:border-b-0">
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Proteínas:</td>
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.protein_g || 'N/A'} g</td>
-                            </tr>
-                            <tr className="border-b border-border/50 last:border-b-0">
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Carbohidratos:</td>
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.carbohydrates_g || 'N/A'} g</td>
-                            </tr>
-                            <tr className="border-b border-border/50 last:border-b-0">
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Grasas:</td>
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.fats_g || 'N/A'} g</td>
-                            </tr>
-                            <tr className="border-b border-border/50 last:border-b-0">
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Fibra:</td>
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.fiber_g || 'N/A'} g</td>
-                            </tr>
-                            <tr className="border-b border-border/50 last:border-b-0">
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Azúcares:</td>
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.sugars_g || 'N/A'} g</td>
-                            </tr>
-                            <tr className="last:border-b-0"> {/* No border-b on the last row */}
-                              <td className="py-1.5 px-4 font-medium text-foreground/80">Sodio:</td>
-                              <td className="py-1.5 px-4 text-right text-foreground/70">{receiptData.nutritional_info.sodium_mg || 'N/A'} mg</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                    <div className="mt-6 p-4 animate-fade-in-up-delay-3"> {/* Outer parent div with padding */}
+                      <div> {/* Container for heading and nutrient rows */}
+                        <div className="text-xl font-semibold text-primary mb-3"> {/* Heading div, now inside the main container */}
+                          {t('receiptPage.sections.nutritionalInfo.title')}
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5 border-b border-border/50">
+                          <div className="font-medium text-foreground/80 text-sm">Calorías:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.calories_kcal || 'N/A'} kcal</div>
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5 border-b border-border/50">
+                          <div className="font-medium text-foreground/80 text-sm">Proteínas:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.protein_g || 'N/A'} g</div>
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5 border-b border-border/50">
+                          <div className="font-medium text-foreground/80 text-sm">Carbohidratos:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.carbohydrates_g || 'N/A'} g</div>
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5 border-b border-border/50">
+                          <div className="font-medium text-foreground/80 text-sm">Grasas:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.fats_g || 'N/A'} g</div>
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5 border-b border-border/50">
+                          <div className="font-medium text-foreground/80 text-sm">Fibra:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.fiber_g || 'N/A'} g</div>
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5 border-b border-border/50">
+                          <div className="font-medium text-foreground/80 text-sm">Azúcares:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.sugars_g || 'N/A'} g</div>
+                        </div>
+                        <div className="grid grid-cols-[max-content_1fr] gap-2 items-center py-1.5"> {/* Last row, no border-b */}
+                          <div className="font-medium text-foreground/80 text-sm">Sodio:</div>
+                          <div className="text-foreground/70 text-right text-sm">{receiptData.nutritional_info.sodium_mg || 'N/A'} mg</div>
+                        </div>
                       </div>
                     </div>
                   )}
@@ -216,12 +212,12 @@ const ReceiptPage = () => {
               {receiptData.ingredients && receiptData.ingredients.length > 0 && (
                 <Card className="animate-fade-in-up">
                   <CardHeader>
-                    <CardTitle className="text-secondary">Ingredientes:</CardTitle>
+                    <CardTitle className="text-secondary">{t('receiptPage.sections.ingredients.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <ul className="list-disc list-inside text-lg space-y-2">
+                    <ul className="list-disc list-inside text-base space-y-2">
                       {receiptData.ingredients.map((item: string, index: number) => (
-                        <li key={index} className="flex items-start">
+                        <li key={index} className="flex items-start text-base leading-normal">
                           <span className="mr-2 text-primary">•</span>
                           <span>{item}</span>
                         </li>
@@ -235,12 +231,12 @@ const ReceiptPage = () => {
               {receiptData.benefits && receiptData.benefits.length > 0 && (
                 <Card className="animate-fade-in-up">
                   <CardHeader>
-                    <CardTitle className="text-secondary">Beneficios:</CardTitle>
+                    <CardTitle className="text-secondary">{t('receiptPage.sections.benefits.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <ul className="list-disc list-inside text-lg space-y-2">
+                    <ul className="list-disc list-inside text-base space-y-2">
                       {receiptData.benefits.map((benefit: string, index: number) => (
-                        <li key={index} className="flex items-start">
+                        <li key={index} className="flex items-start text-base leading-normal">
                           <span className="mr-2 text-primary">•</span>
                           <span>{benefit}</span>
                         </li>
@@ -254,10 +250,10 @@ const ReceiptPage = () => {
               {receiptData.how_to_prepare && (
                 <Card className="animate-fade-in-up">
                   <CardHeader>
-                    <CardTitle className="text-secondary">Cómo preparar:</CardTitle>
+                    <CardTitle className="text-secondary">{t('receiptPage.sections.howToPrepare.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-lg leading-relaxed whitespace-pre-wrap">{receiptData.how_to_prepare}</p>
+                    <p className="text-base leading-normal whitespace-pre-wrap">{receiptData.how_to_prepare}</p>
                   </CardContent>
                 </Card>
               )}

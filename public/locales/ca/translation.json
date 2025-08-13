@@ -602,6 +602,20 @@
     }
   },
   "receiptPage": {
-    "nutritionalInfoTitle": "Informació Nutricional:"
+    "nutritionalInfoTitle": "Informació Nutricional:",
+    "sections": {
+      "nutritionalInfo": {
+        "title": "Informació Nutricional:"
+      },
+      "ingredients": {
+        "title": "Ingredients"
+      },
+      "benefits": {
+        "title": "Beneficis"
+      },
+      "howToPrepare": {
+        "title": "Com preparar-ho"
+      }
+    }
   }
 }

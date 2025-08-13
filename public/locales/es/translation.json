@@ -222,11 +222,11 @@
       },
       {
         "title": "Propiedad intelectual",
-        "content": "Todos los contenidos del sitio web (textos, imágenes, logos, marcas) son propiedad de 2bites Company o de terceros que han autorizado su uso. Queda prohibida su reproducción total o parcial sin autorización expresa."
+        "content": "Todos los contenidos del sitio web (textos, imágenes, logos, marcas) son propiedad de 2bites Company o de terceros que han autorizado su uso. Queda prohibida la su reproducción total o parcial sin autorización expresa."
       },
       {
         "title": "Responsabilidad",
-        "content": "2bites no se hace responsable del mal uso de los contenidos ni de los posibles daños derivados del uso de la web. Nos reservamos el derecho de modificar o eliminar contenidos sin previo aviso."
+        "content": "2bites no se hace responsable del mal uso de los contenidos ni de los posibles daños derivados del uso del web. Nos reservamos el derecho de modificar o eliminar contenidos sin previo aviso."
       },
       {
         "title": "Enlaces externos",
@@ -254,7 +254,7 @@
         "content": "Consentimiento expreso del interesado."
       },
       {
-        "title": "Datos recogidos",
+        "title": "Dades recollidas",
         "content": "Los formularios de contacto o descarga recopilan:",
         "listItems": [
           "Nombre",
@@ -412,7 +412,7 @@
       },
       {
         "name": "Snack de Piña",
-        "description": "• 100% Piña liofilizada\n• Dulzor tropical sin azúcar\n• Crujiente y sin conservantes",
+        "description": "• 100% Piña liofilitzada\n• Dulzor tropical sin azúcar\n• Crujiente y sin conservantes",
         "imageAlt": "Snack de Piña natural"
       },
       {
@@ -489,10 +489,10 @@
         { "title": "Responsable del tratamiento", "lines": ["<1>Nombre comercial:</1> 2bites Company SCP", "<1>Correo de contacto:</1> <2>info@2bitesco.com</2>"] },
         { "title": "Finalidad", "content": "Envío del catálogo profesional y comunicaciones comerciales sobre 2bites." },
         { "title": "Base legal", "content": "Consentimiento expreso del interesado." },
-        { "title": "Datos recogidos", "listItems": ["Nombre", "Email", "Teléfono (en caso que se haya facilitado)", "Empresa/establecimiento", "Ciudad"] },
+        { "title": "Dades recollidas", "listItems": ["Nombre", "Email", "Teléfono (en caso que se haya facilitado)", "Empresa/establecimiento", "Ciudad"] },
         { "title": "Derechos", "content": "Ejercicio de derechos escribiendo a <1>info@2bitesco.com</1>." },
         { "title": "Plazo de conservación", "content": "Se conservarán mientras sea necesario o hasta solicitud de eliminación." },
-        { "title": "Medidas de seguridad", "content": "Protocolos y tecnologías seguras para proteger tus datos." }
+        { "title": "Medidas de seguridad", "content": "Protocols y tecnologías seguras para proteger tus datos." }
       ]
     }
   },
@@ -604,6 +604,20 @@
     }
   },
   "receiptPage": {
-    "nutritionalInfoTitle": "Información Nutricional:"
+    "nutritionalInfoTitle": "Información Nutricional:",
+    "sections": {
+      "nutritionalInfo": {
+        "title": "Información Nutricional:"
+      },
+      "ingredients": {
+        "title": "Ingredientes"
+      },
+      "benefits": {
+        "title": "Beneficios"
+      },
+      "howToPrepare": {
+        "title": "Cómo prepararlo"
+      }
+    }
   }
 }
